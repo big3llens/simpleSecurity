@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import ru.markelov.simpleSecurity.entities.Score;
 
 @Repository
-@Profile("dao")
+
 public interface ScoreRepository extends CrudRepository<Score, Integer> {
 }

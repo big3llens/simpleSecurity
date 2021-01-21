@@ -14,7 +14,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import ru.markelov.simpleSecurity.services.UserService;
 
 @EnableWebSecurity
-@Profile("dao")
+
 @RequiredArgsConstructor
 public class DaoSecurityConfig extends WebSecurityConfigurerAdapter {
     private final UserService userService;

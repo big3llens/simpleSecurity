@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import ru.markelov.simpleSecurity.entities.Role;
 
 @Repository
-@Profile("dao")
+
 public interface RoleRepository extends CrudRepository<Role, Integer> {
 }

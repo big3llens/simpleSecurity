@@ -11,7 +11,7 @@ import ru.markelov.simpleSecurity.services.UserService;
 import java.security.Principal;
 
 @RestController
-@Profile("dao")
+
 @Slf4j
 @RequiredArgsConstructor
 public class DaoController {

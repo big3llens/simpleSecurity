@@ -8,7 +8,7 @@ import ru.markelov.simpleSecurity.entities.User;
 import java.util.Optional;
 
 @Repository
-@Profile("dao")
+
 public interface UserRepository extends CrudRepository<User, Long> {
     Optional<User> findByUsername(String username);
 }

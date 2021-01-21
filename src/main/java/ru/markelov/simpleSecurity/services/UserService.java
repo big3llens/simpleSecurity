@@ -28,7 +28,7 @@ public class UserService implements UserDetailsService {
     }
 
     @Override
-    @Profile("dao")
+
     @Transactional
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
         User user = findByUsername(s).orElseThrow(() -> new UsernameNotFoundException(String.format("Пользователь: [%s] не найден", s)));
