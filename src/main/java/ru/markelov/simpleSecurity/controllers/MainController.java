@@ -15,7 +15,7 @@ public class MainController {
         return "unsecured";
     }
 
-    @GetMapping("/auth_page")
+    @GetMapping("/ap")
     public String authenticatedPage() {
         return "Авторизовались";
     }
