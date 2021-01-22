@@ -44,5 +44,4 @@ public class DaoController {
         return "selected user [name: " + user.getUsername() + ", score: " + user.getScore().getPoints() + "]";
     }
 
-
 }
